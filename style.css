@@ -53,7 +53,7 @@ color:var(--texto);
 
 background-color:var(--marfil);
 
-background-image:url("fondo8.jpg");
+background-image:url("fondo10.jpg");
 
 background-size:cover;
 background-position:center;
@@ -780,7 +780,7 @@ background:
         rgba(242,239,234,.72),
         rgba(226,211,196,.58)
     ),
-    url("back.jpg");
+    url("fondo10.jpg");
 
 background-size:cover;
 
@@ -961,7 +961,7 @@ background:
         rgba(242,239,234,.72),
         rgba(226,211,196,.58)
     ),
-    url("back.jpg");
+    url("fondo10.jpg");
 
 background-size:cover;
 
@@ -1150,7 +1150,7 @@ background:
         rgba(242,239,234,.72),
         rgba(226,211,196,.58)
     ),
-    url("back.jpg");
+    url("fondo10.jpg");
 
 background-size:cover;
 
@@ -1311,7 +1311,7 @@ background:
         rgba(242,239,234,.72),
         rgba(226,211,196,.58)
     ),
-    url("back.jpg");
+    url("fondo10.jpg");
 
 background-size:cover;
 
@@ -1550,7 +1550,7 @@ background:
         rgba(242,239,234,.72),
         rgba(226,211,196,.58)
     ),
-    url("back.jpg");
+    url("fondo10.jpg");
 
 background-size:cover;
 
@@ -1667,7 +1667,7 @@ background:
         rgba(242,239,234,.72),
         rgba(226,211,196,.58)
     ),
-    url("back.jpg");
+    url("fondo10.jpg");
 
 background-size:cover;
 
