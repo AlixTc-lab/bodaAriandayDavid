@@ -441,24 +441,26 @@ to{
 
 @media(max-width:768px){
 
-.hero{
-    height:100svh;
+    .hero{
+        height: auto;
+        min-height: 100vh;
+    }
+
+    .hero h1{
+        font-size:82px;
+    }
+
+    .hero p{
+        font-size:24px;
+    }
+
+    .detalle{
+        font-size:11px;
+        letter-spacing:3px;
+    }
+
 }
 
-.hero h1{
-    font-size:82px;
-}
-
-.hero p{
-    font-size:24px;
-}
-
-.detalle{
-    font-size:11px;
-    letter-spacing:3px;
-}
-
-}
 
 @media(max-width:600px){
 
