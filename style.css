@@ -55,22 +55,30 @@ body {
     background: var(--marfil);
 }
 
+
+/*======================================================
+FONDO FIJO
+======================================================*/
+
 body::before {
     content: "";
+
     position: fixed;
 
     top: 0;
     left: 0;
 
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 
     background-image: url("fondo10.jpg");
+
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100vw 100vh;
+    background-size: cover;
 
-    z-index: -1;
+    z-index: -10;
+
     pointer-events: none;
 }
 
@@ -85,7 +93,7 @@ body::before {
 
     width: 100%;
 
-    min-height: 100dvh;
+    min-height: 100vh;
 
     display: flex;
 
@@ -93,15 +101,7 @@ body::before {
 
     justify-content: center;
 
-    overflow: hidden;
-
-  
-
-    background-size: cover;
-
-    background-position: center center;
-
-    background-repeat: no-repeat;
+    background: transparent;
 }
 
 
@@ -109,9 +109,6 @@ body::before {
     Espacio preparado para la fotografía
     del Hero.
 */
-
-
-
 
 
 .hero-content {
@@ -127,7 +124,6 @@ body::before {
     text-align: center;
 
     color: white;
-
 }
 
 
@@ -143,8 +139,8 @@ body::before {
     margin-bottom: 25px;
 
     opacity: .9;
-    color: var(--cafe);
 
+    color: var(--cafe);
 }
 
 
@@ -159,7 +155,6 @@ body::before {
 
     background:
         rgba(255,255,255,.7);
-
 }
 
 
@@ -173,9 +168,10 @@ body::before {
     line-height: .9;
 
     letter-spacing: .03em;
-    Font-family: "Cormorant Garamond", serif;
-    color: var(--cafe);
 
+    font-family: "Cormorant Garamond", serif;
+
+    color: var(--cafe);
 }
 
 
@@ -186,8 +182,8 @@ body::before {
     margin: 15px 0;
 
     font-size: .35em;
-    color: var(--cafe);
 
+    color: var(--cafe);
 }
 
 
@@ -199,8 +195,8 @@ body::before {
         clamp(1rem, 3vw, 1.4rem);
 
     letter-spacing: .25em;
-    color: var(--cafe);
 
+    color: var(--cafe);
 }
 
 
@@ -211,8 +207,8 @@ body::before {
     font-size: 1rem;
 
     opacity: .85;
-    color: var(--cafe);
 
+    color: var(--cafe);
 }
 
 
@@ -239,8 +235,8 @@ body::before {
     text-transform: uppercase;
 
     opacity: .75;
-    color: var(--cafe);
 
+    color: var(--cafe);
 }
 
 
@@ -250,7 +246,6 @@ body::before {
 
     animation:
         arrowMove 1.5s infinite ease-in-out;
-
 }
 
 
@@ -272,7 +267,6 @@ body::before {
     }
 
 }
-
 
 /*======================================================
 4. CUENTA REGRESIVA
