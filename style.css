@@ -88,12 +88,7 @@ margin:0;
 
     overflow: hidden;
 
-    background-image:
-        linear-gradient(
-            rgba(40, 25, 20, .18),
-            rgba(40, 25, 20, .32)
-        ),
-        url("hero.jpeg");
+  
 
     background-size: cover;
 
@@ -108,42 +103,8 @@ margin:0;
     del Hero.
 */
 
-.hero::before {
-
-    content: "";
-
-    position: absolute;
-
-    inset: 0;
-
-    background:
-
-        radial-gradient(
-            circle at center,
-            rgba(255,255,255,.12),
-            transparent 55%
-        );
-
-    pointer-events: none;
-
-}
 
 
-.hero-overlay {
-
-    position: absolute;
-
-    inset: 0;
-
-    background:
-
-        linear-gradient(
-            to bottom,
-            rgba(40,25,20,.08),
-            rgba(40,25,20,.30)
-        );
-
-}
 
 
 .hero-content {
@@ -175,6 +136,7 @@ margin:0;
     margin-bottom: 25px;
 
     opacity: .9;
+    color: var(--cafe);
 
 }
 
@@ -204,6 +166,8 @@ margin:0;
     line-height: .9;
 
     letter-spacing: .03em;
+    Font-family: "Cormorant Garamond", serif;
+    color: var(--cafe);
 
 }
 
@@ -215,6 +179,7 @@ margin:0;
     margin: 15px 0;
 
     font-size: .35em;
+    color: var(--cafe);
 
 }
 
@@ -227,6 +192,7 @@ margin:0;
         clamp(1rem, 3vw, 1.4rem);
 
     letter-spacing: .25em;
+    color: var(--cafe);
 
 }
 
@@ -238,6 +204,7 @@ margin:0;
     font-size: 1rem;
 
     opacity: .85;
+    color: var(--cafe);
 
 }
 
@@ -265,6 +232,7 @@ margin:0;
     text-transform: uppercase;
 
     opacity: .75;
+    color: var(--cafe);
 
 }
 
