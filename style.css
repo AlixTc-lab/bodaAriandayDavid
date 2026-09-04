@@ -30,42 +30,45 @@ VARIABLES
 --shadow-soft: 0 10px 30px rgba(126,94,80,.10);
 
 }
-
 /*======================================================
 2. RESET
 ======================================================*/
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html{
-scroll-behavior:smooth;
+html {
+    scroll-behavior: smooth;
 }
 
-body{
+body {
+    font-family: "Poppins", sans-serif;
+    color: var(--texto);
+    background-color: var(--marfil);
+    overflow-x: hidden;
+    min-height: 100vh;
+    margin: 0;
+}
 
-font-family:"Poppins", sans-serif;
+/*======================================================
+FONDO FIJO
+======================================================*/
 
-color:var(--texto);
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
 
-background-color:var(--marfil);
+    background-image: url("fondo10.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-background-image:url("fondo10.jpg");
-
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
-background-attachment:fixed;
-
-overflow-x:hidden;
-
-min-height:100vh;
-
-margin:0;
-
+    z-index: -1;
+    pointer-events: none;
 }
 
 /*======================================================
