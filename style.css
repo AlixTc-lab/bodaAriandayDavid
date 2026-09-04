@@ -93,7 +93,10 @@ body::before {
 
     justify-content: center;
 
-    background: transparent;
+  background-image: url("fondo10.jpg");
+        background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
