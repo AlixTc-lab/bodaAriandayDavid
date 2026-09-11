@@ -2048,3 +2048,24 @@ margin:auto;
 border-radius:10px;
 
 }
+/* Soporte de desenfoque optimizado para Safari / iOS */
+.lugar-card,
+.familia-card,
+.regalos-card,
+.vestimenta-card,
+.accion-card,
+.cierre-card {
+    -webkit-backdrop-filter: blur(18px);
+    backdrop-filter: blur(18px);
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.regalos-card p,
+.descripcion-vestimenta,
+.vestimenta-item,
+.accion-card p,
+.cierre-card > p {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
